@@ -18,7 +18,12 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 2 : Lose points when Wonder Woman runs into enemies
+## Step 2 : Place your artifacts
+
+Now, go back to the tilemap. Go to **My Tiles** and select your enemy. Place the enemy tile on your maze in all the places you want your enemy to appear.
+![Enemies!](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/enemiesPreview.png)
+
+## Step 3 : Lose points when Wonder Woman runs into enemies
 
 Now, let's make Wonder Woman lose points when she runs into an enemy.
 First, we need to create a score tracker for the game. 
@@ -34,7 +39,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 3 : Add a sound when for the enemy
+## Step 4 : Add a sound when for the enemy
 
 In ``||music||`` , get the ``||music: play sound||`` block. In the drop-down, choose the sound that will play when you lose a point.
 
@@ -45,7 +50,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
  
-## Step 4 : Make enemies disappear
+## Step 5 : Make enemies disappear
 
 Once you've already seen an enemy, you want it to disappear. So, from the "tile" section of ``||scene||``, get a ``||scene: set at tilemap||`` block. 
 Click on the grey box and choose the tile that matches the background of your maze.
@@ -59,6 +64,6 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 5 @unplugged
+## Step 6 @unplugged
 
 Repeat these steps to create more enemies to add to your maze or start playing!
