@@ -12,7 +12,7 @@ You could draw her enemy from the upcoming movie: **Cheetah**.
 From ``||scene||`` get the ``||scene: on sprite of kind overlaps||`` block. 
 Click on the grey square and find your villain! 
 
-``` blocks
+```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
 	
 })
@@ -33,7 +33,7 @@ Now when you start the game, your score will be set to 0.
 Next, get the ``||info: change score by||`` block and put it in the ``||scene: on sprite of kind overlaps||`` block.
 Now, when Wonder Woman overlaps with an enemy, the player will **lose one point**.
 
-``` blocks
+```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
     info.changeScoreBy(1)
 })
@@ -43,7 +43,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 
 In ``||music||`` , get the ``||music: play sound||`` block. In the drop-down, choose the sound that will play when you lose a point.
 
-``` blocks
+```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
     info.changeScoreBy(1)
     music.baDing.play()
@@ -56,7 +56,7 @@ Once you've already seen an enemy, you want it to disappear. So, from the "tile"
 Click on the grey box and choose the tile that matches the background of your maze.
 Replace the ``||variable: tilemap col row||`` with ``||variable: location||`` by dragging it from the ``||scene: on sprite of kind overlaps||`` block that's already in your workspace.
 
-``` blocks
+```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
     info.changeScoreBy(1)
     music.baDing.play()
