@@ -116,7 +116,7 @@ tiles.setTilemap(tiles.createTilemap(
 In the Set Tilemap block, click on the grey box to choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with the tile you selected.
 Next, use the Erasor tool to draw the path for the maze. 
 
-![Draw Maze](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/drawMazeBackup.png)
+![Draw Maze](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/drawMaze.gif)
 
 ## Step 5 : Create the maze walls
 
@@ -124,7 +124,7 @@ Now that we know what the maze looks like, we need to show the program where the
 In the Tilemap Editor, click on the red Wall icon, then draw the walls around your Maze math. 
 Using this tool highlight all the walls that Wonder Woman should **NOT** be able to walk through.
 
-![Draw Walls](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/drawWallsBackup.png)
+![Draw Walls](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/drawWalls.gif)
 
 ## Step 6 : Create a Starting Position for Wonder Woman
 
