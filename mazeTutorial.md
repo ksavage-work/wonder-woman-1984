@@ -2,7 +2,7 @@
 
 ## Introduction @unplugged
 
-![Game animation](/static/tutorials/lemon-leak.gif)
+![Game animation](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/wwSplash.gif)
 Hey, let's make a game where Wonder Woman must find the way out of a tricky maze! In that maze, she can collect
 artifacts to gain points, but also needs to avoid her enemies that will steal points. 
 
@@ -31,7 +31,7 @@ let mySprite = sprites.create(img`
 `, SpriteKind.Player)
 ```
 
-![WW](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/wonderWoman3.png)
+![WW](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/wonderWoman3.png)
 
 ## Step 2 : Let's make Wonder Woman move!
 
@@ -116,7 +116,7 @@ tiles.setTilemap(tiles.createTilemap(
 In the Set Tilemap block, click on the grey box to choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with the tile you selected.
 Next, use the Erasor tool to draw the path for the maze. 
 
-![Draw Maze](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/drawMazeBackup.png)
+![Draw Maze](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/drawMazeBackup.png)
 
 ## Step 5 : Create the maze walls
 
@@ -124,7 +124,7 @@ Now that we know what the maze looks like, we need to show the program where the
 In the Tilemap Editor, click on the red Wall icon, then draw the walls around your Maze math. 
 Using this tool highlight all the walls that Wonder Woman should **NOT** be able to walk through.
 
-![Draw Walls](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/drawWallsBackup.png)
+![Draw Walls](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/drawWallsBackup.png)
 
 ## Step 6 : Create a Starting Position for Wonder Woman
 
@@ -244,7 +244,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.stairLarge, function (spr
     game.over(true)
 })
 ```
-![End Position](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/endPosition.png)
+![End Position](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/endPosition.png)
 
 ## Step 9 : Finally, add a countdown timer!
 
@@ -304,4 +304,4 @@ info.startCountdown(20)
 
 [Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonder-woman-1984/artifactTutorial)
 
-![Add Artifacts](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/artifactPreview.png)
+![Add Artifacts](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/artifactPreview.png)
