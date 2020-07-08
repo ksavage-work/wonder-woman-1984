@@ -18,7 +18,12 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 2 : Earn points when items are collected
+## Step 2 : Place your artifacts
+
+Now, go back to the tilemap. Go to **My Tiles** and select your artifact. Place this artifact tile on your maze in all the places you want it to appear.
+![Artifacts!](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/artifactPreview.png)
+
+## Step 3 : Earn points when items are collected
 
 First, we need to create a score tracker for the game. 
 Get the ``||info: set score to||`` block at put it in the ``||loops: on start||`` loop. 
@@ -33,7 +38,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 3 : Add a sound when items are collected
+## Step 4 : Add a sound when items are collected
 
 In ``||music||`` , get the ``||music: play sound||`` block. In the drop-down, choose the sound you want to hear when Wonder Woman picks up the item.
 
@@ -44,7 +49,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
  
-## Step 4 : Make the item disappear when collected
+## Step 5 : Make the item disappear when collected
 
 From the "tile" section of ``||scene||``, get a ``||scene: set at tilemap||`` block. 
 Click on the grey box and choose the tile that matches the background of your maze.
@@ -58,7 +63,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 5 @unplugged 
+## Step 6 @unplugged 
 Repeat these steps to create more artifacts for Wonder Woman to collect   
 **OR** 
 [Click here to add enemies for Wonder Woman to face!](#recipe:https://github.com/ksavage-work/wonder-woman-1984/enemiesTutorial)  
