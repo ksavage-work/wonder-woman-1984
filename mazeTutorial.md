@@ -2,7 +2,7 @@
 
 ## Introduction @unplugged
 
-![Game animation](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/wwSplash3.gif)
+![Game animation!](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/wwSplash3.gif)
 Hey, let's make a game where Wonder Woman must find the way out of a tricky maze! In that maze, she can collect
 artifacts to gain points, but also needs to avoid her enemies that will steal points. 
 
