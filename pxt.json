@@ -1,0 +1,19 @@
+{
+    "name": "Wonder Woman 1984",
+    "dependencies": {
+        "device": "*"
+    },
+    "description": "",
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "mazeTutorial.md",
+        "artifactTutorial.md",
+        "enemiesTutorial.md"
+    ],
+    "preferredEditor": "tsprj",
+    "testFiles": [
+        "test.ts"
+    ]
+}
