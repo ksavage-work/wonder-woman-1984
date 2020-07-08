@@ -111,7 +111,7 @@ tiles.setTilemap(tiles.createTilemap(
         ))
 ```
 
-## Step 4 : Draw maze
+## Step 4 : Draw your maze
 
 In the Set Tilemap block, click on the grey box to choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with the tile you selected.
 Next, use the Erasor tool to draw the path for the maze. 
