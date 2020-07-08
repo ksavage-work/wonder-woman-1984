@@ -1,5 +1,11 @@
 # Wonder Woman Maze
 
+## Introduction @unplugged
+
+![Game animation](/static/tutorials/lemon-leak.gif)
+Hey, let's make a game where Wonder Woman must find the way out of a tricky maze! In that maze, she can collect
+artifacts to gain points, but also needs to avoid her enemies that will steal points. 
+
 ## Step 1 : Make Wonder Woman @fullscreen
 
 Open the ``||sprites:Sprites||`` Toolbox drawer and grab the ``||variables:set mySprite to||`` block. Drop this block in the ``||loops:on start||`` block.
