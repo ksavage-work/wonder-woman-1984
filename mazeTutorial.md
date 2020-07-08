@@ -293,6 +293,6 @@ info.startCountdown(20)
 
 ## Step 9 @unplugged
 
-[Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonderw1/artifacts)
+[Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonder-woman-1984/artifactTutorial)
 
 ![Add Artifacts](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/artifactPreview.png)
