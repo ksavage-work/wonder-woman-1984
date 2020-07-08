@@ -116,7 +116,7 @@ tiles.setTilemap(tiles.createTilemap(
 In the Set Tilemap block, click on the grey box to choose a color or tile for the walls of your maze, then use the bucket Fill tool to fill in the entire canvas with the tile you selected.
 Next, use the Erasor tool to draw the path for the maze. 
 
-![Draw Maze](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/drawMazeBackup.png)
+![Draw Maze!](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/drawMazeBackup.png)
 
 ## Step 5 : Create the maze walls
 
