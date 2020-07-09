@@ -143,6 +143,7 @@ tiles.setTilemap(tiles.createTilemap(
 ## Now draw your maze @unplugged
 
 This is how you will draw your maze in the next step. First fill in the canvas with a tile, then use the Erasor tool to draw the path for your maze.
+
 ![Draw Maze gif!](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/fillMaze.gif)
 
 ## Step 5 : Draw your maze
@@ -156,6 +157,7 @@ Next, use the Erasor tool to draw the path for the maze.
 ## Now draw the walls of your maze @unplugged
 
 Now, outline the walls of the maze with a Wall creation tool.
+
 ![Draw Walls gif!](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/fillWalls.gif)
 
 ## Step 6 : Create the maze walls
