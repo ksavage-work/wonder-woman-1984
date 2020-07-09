@@ -10,7 +10,7 @@ artifacts to gain points, but also needs to avoid her enemies that will steal po
 
 Open the ``||sprites:Sprites||`` Toolbox drawer and grab the ``||variables:set mySprite to||`` block. Drop this block in the ``||loops:on start||`` block.
 In the ``||variables:set mySprite to||`` block, click the grey box and draw Wonder Woman!  
-**Tip: draw your sprite small enough to fit through the pathway!**
+**Tip: draw Wonder Woman small enough to fit through the pathway!**
 
 ```blocks
 let mySprite = sprites.create(img`
