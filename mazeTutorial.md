@@ -347,8 +347,8 @@ scene.cameraFollowSprite(mySprite)
 info.startCountdown(20)
 ```
 
-## Finish current tutorial or add artifacts @unplugged
+## Finish current tutorial or add artifacts @fullscreen
 
-[Click here to add items for Wonder Woman to collect!](#recipe:https://github.com/ksavage-work/wonder-woman-1984/artifactTutorial)
+Click [**this link**](#recipe:https://github.com/ksavage-work/wonder-woman-1984/artifactTutorial) to add items for Wonder Woman to collect!
 
 ![Add Artifacts](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/artifactPreview.png)

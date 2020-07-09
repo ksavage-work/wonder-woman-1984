@@ -63,9 +63,9 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 6 @unplugged 
+## Step 6 @fullscreen 
 Repeat these steps to create more artifacts for Wonder Woman to collect   
 **OR** 
-[Click here to add enemies for Wonder Woman to face!](#recipe:https://github.com/ksavage-work/wonder-woman-1984/enemiesTutorial)  
+Click [**this link**](#recipe:https://github.com/ksavage-work/wonder-woman-1984/enemiesTutorial) to add enemies to your maze!  
 ![Enemies!](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/enemiesPreview.png)
 
