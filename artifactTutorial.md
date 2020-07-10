@@ -61,7 +61,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
     tiles.setTileAt(location, myTiles.null)
 })
 ```
-![Drag Location](/static/recipes/wonder-woman-1984/artifact-preview.png)
+![Drag Location](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/artifactsLocation.gif)
 
 ## Step 6 @fullscreen
 
