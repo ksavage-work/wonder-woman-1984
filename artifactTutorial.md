@@ -52,7 +52,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
  
 ## Step 5 : Make the item disappear when collected
 
-Now we need to delete the artifact when Wonder Woman picks it up. From the ``||scene:Scene||`` Toolbox drawer, drag a ``||scene:set at tilemap||`` block and drop it into the ``||scene:on sprite of kind overlaps||`` artifact block after the ``||music:play sound||`` block. Then from the ``||scene:on sprite of kind overlaps||`` block, drag the ``||variables:location||`` block into the ``||scene:set at tilemap||`` block replacing the ``||variables:tilemap col row||`` block.
+Now we need to delete the artifact when Wonder Woman picks it up. From the ``||scene:Scene||`` Toolbox drawer, drag a ``||scene:set at tilemap||`` block and drop it into the ``||scene:on sprite of kind overlaps||`` artifact block after the ``||music:play sound||`` block. Then from the ``||scene:on sprite of kind overlaps||`` block, drag the ``||variables:location||`` block into the ``||scene:set at tilemap||`` block replacing the ``||scene:tilemap col row||`` block.
 
 ```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
