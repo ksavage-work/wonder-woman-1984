@@ -56,6 +56,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
     tiles.setTileAt(location, myTiles.null)
 })
 ```
+![Drag Location](https://raw.githubusercontent.com/ksavage-work/wonder-woman-1984/master/enemiesLocation.gif)
 
 ## Step 6 @unplugged
 
