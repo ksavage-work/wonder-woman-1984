@@ -46,7 +46,7 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 ```
  
 ## Step 5 : Make enemies disappear
- Now we need to destroy the enemy when Wonder Woman overlaps with it. From the ``||scene||`` Toolbox drawer, drag a ``||scene: set at tilemap||`` block and drop it into the ``||scene: on sprite of kind overlaps||`` enemy block after the ``||music: play sound||`` block. Then from the ``||scene: on sprite of kind overlaps||`` block, drag the ``||variable: location||`` block into the ``||scene: set at tilemap||`` block replacing the ``||variable: tilemap col row||`` block.
+ Now we need to destroy the enemy when Wonder Woman overlaps with it. From the ``||scene||`` Toolbox drawer, drag a ``||scene: set at tilemap||`` block and drop it into the ``||scene: on sprite of kind overlaps||`` enemy block after the ``||music: play sound||`` block. Then from the ``||scene: on sprite of kind overlaps||`` block, drag the ``||variable: location||`` block into the ``||scene: set at tilemap||`` block replacing the ``||scene: tilemap col row||`` block.
 
 
 ```blocks
