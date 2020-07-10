@@ -7,10 +7,14 @@ Now let's add some of Wonder Woman's biggest enemies to the maze!
 
 ## Step 1 : Create your villain
 
-Go to the tilemap and click on **My Tiles**. Click on the **+** and draw the enemy you want Wonder Woman to face.
-You could draw her enemy from the upcoming movie: **Cheetah**.
-From ``||scene||`` get the ``||scene: on sprite of kind overlaps||`` block. 
-Click on the grey square and find your villain! 
+Go to the Tilemap Editor and click on **My Tiles**. Click on the **+** icon to create a new tile where you can draw one of Wonder Woman's enemies - for example, **Cheetah**.
+Then place this enemy tile on your maze in all the places you want it to appear. 
+
+![Enemies!](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/enemiesPreview.png)
+
+## Step 2 : Place your artifacts
+
+From the ``||scene||`` Toolbox drawer, get the ``||scene: on sprite of kind overlaps||`` block and drop onto the Workspace. Click on the checkered square and select the enemy you just made.
 
 ```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
@@ -18,30 +22,21 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 })
 ```
 
-## Step 2 : Place your artifacts
-
-Now, go back to the tilemap. Go to **My Tiles** and select your enemy. Place the enemy tile on your maze in all the places you want your enemy to appear.
-![Enemies!](https://raw.githubusercontent.com/ksavage-work/wonderw1/master/enemiesPreview.png)
-
 ## Step 3 : Lose points when Wonder Woman runs into enemies
 
 Now, let's make Wonder Woman lose points when she runs into an enemy.
-First, we need to create a score tracker for the game. 
-Get the ``||info: set score to||`` block at put it in the ``||loops: on start||`` loop. 
-Now when you start the game, your score will be set to 0.
 
-Next, get the ``||info: change score by||`` block and put it in the ``||scene: on sprite of kind overlaps||`` block.
-Now, when Wonder Woman overlaps with an enemy, the player will **lose one point**.
+From the ``||info||`` Toolbox drawer, drag a ``||info: change score by||`` block and drop it into the ``||scene: on sprite of kind overlaps||`` enemy block you just created. In the ``||info: change score by||`` block, type -1 as the value to change the score by. Now when Wonder Woman overlaps with an enemy, she will lose one point.
 
 ```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
-    info.changeScoreBy(1)
+    info.changeScoreBy(-1)
 })
 ```
 
 ## Step 4 : Add a sound when for the enemy
 
-In ``||music||`` , get the ``||music: play sound||`` block. In the drop-down, choose the sound that will play when you lose a point.
+"From the ``||music||`` Toolbox drawer, drag the ``||music: play sound||`` block into the ``||scene: on sprite of kind overlaps||`` enemy block. Then in the ``||music: play sound||`` block, click on the drop-down menu to select the sound you want to hear when Wonder Woman runs into an enemy."
 
 ```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
@@ -51,10 +46,8 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 ```
  
 ## Step 5 : Make enemies disappear
+ Now we need to destroy the enemy when Wonder Woman overlaps with it. From the ``||scene||`` Toolbox drawer, drag a ``||scene: set at tilemap||`` block and drop it into the ``||scene: on sprite of kind overlaps||`` enemy block after the ``||music: play sound||`` block. Then from the ``||scene: on sprite of kind overlaps||`` block, drag the ``||variable: location||`` block into the ``||scene: set at tilemap||`` block replacing the ``||variable: tilemap col row||`` block.
 
-Once you've already seen an enemy, you want it to disappear. So, from the "tile" section of ``||scene||``, get a ``||scene: set at tilemap||`` block. 
-Click on the grey box and choose the tile that matches the background of your maze.
-Replace the ``||variable: tilemap col row||`` with ``||variable: location||`` by dragging it from the ``||scene: on sprite of kind overlaps||`` block that's already in your workspace.
 
 ```blocks
 scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location) {
@@ -66,4 +59,5 @@ scene.onOverlapTile(SpriteKind.Player, myTiles.null, function (sprite, location)
 
 ## Step 6 @unplugged
 
-Repeat these steps to create more enemies to add to your maze or start playing!
+Repeat these steps to add more enemies for Wonder Woman to avoid in her Maze. When you're done, click Finish to play and share your Wonder Woman Chaos Maze with friends! Congratulations!
+
